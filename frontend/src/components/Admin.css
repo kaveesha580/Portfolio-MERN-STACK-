@@ -1,0 +1,287 @@
+.admin-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #fff;
+}
+
+.admin-container h1 {
+  color: #ccff33;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.message {
+  padding: 12px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background: #2c2c2c;
+  text-align: center;
+}
+
+.admin-form {
+  background: #2c2c2c;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.admin-form h2 {
+  color: #ccff33;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ddd;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 10px 14px;
+  background: #3d3d3d;
+  border: 1px solid #555;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #ccff33;
+}
+
+.admin-form button {
+  padding: 10px 24px;
+  background: #ccff33;
+  color: #1a1a1a;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.admin-form button:disabled {
+  opacity: 0.6;
+}
+
+.projects-list {
+  background: #2c2c2c;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+.projects-list h2 {
+  color: #ccff33;
+  margin-bottom: 20px;
+}
+
+.projects-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.projects-list th,
+.projects-list td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #3d3d3d;
+}
+
+.projects-list th {
+  color: #ccff33;
+}
+
+.projects-list tr:hover td {
+  background: #3d3d3d;
+}
+
+.projects-list button {
+  padding: 4px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.projects-list button:first-child {
+  background: #1976d2;
+  color: #fff;
+}
+
+.projects-list button:last-child {
+  background: #d32f2f;
+  color: #fff;
+}
+
+/* ---------- Login Form Styles ---------- */
+.login-form {
+  background: #2c2c2c;
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 400px;
+  margin: 50px auto;
+  box-shadow: 0 8px 32px rgba(204, 255, 51, 0.1);
+}
+
+.login-form h1 {
+  color: #ccff33;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.login-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form button {
+  padding: 12px 24px;
+  background: #ccff33;
+  color: #1a1a1a;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-form button:hover {
+  background: #b3e020;
+}
+
+/* ---------- Admin Header with Logout ---------- */
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.admin-header h1 {
+  margin: 0;
+}
+
+.logout-btn {
+  padding: 8px 16px;
+  background: #d32f2f;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.logout-btn:hover {
+  background: #b71c1c;
+}
+
+/* ---------- Admin Tabs ---------- */
+.admin-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #3d3d3d;
+}
+
+.tab-btn {
+  padding: 12px 24px;
+  background: transparent;
+  border: none;
+  color: #aaa;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s;
+}
+
+.tab-btn:hover {
+  color: #ccff33;
+}
+
+.tab-btn.active {
+  color: #ccff33;
+  border-bottom-color: #ccff33;
+}
+
+/* ---------- Contacts List ---------- */
+.contacts-list {
+  background: #2c2c2c;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+.contacts-list h2 {
+  color: #ccff33;
+  margin-bottom: 20px;
+}
+
+.contacts-container {
+  display: grid;
+  gap: 15px;
+}
+
+.contact-card {
+  background: #3d3d3d;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #ccff33;
+}
+
+.contact-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.contact-header h3 {
+  color: #ccff33;
+  margin: 0 0 5px 0;
+}
+
+.contact-email {
+  color: #aaa;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.contact-message {
+  color: #ddd;
+  margin: 12px 0;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.contact-date {
+  color: #777;
+  font-size: 0.85rem;
+  margin: 10px 0 0 0;
+}
+
+.delete-btn {
+  padding: 6px 12px;
+  background: #d32f2f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.delete-btn:hover {
+  background: #b71c1c;
+}
